@@ -3,7 +3,7 @@
 }
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 40px;
 }
@@ -75,4 +75,19 @@
     margin-top: 2px;
     color: #606060;
     font-size: 14px;
+}
+@media (max-width:720px){
+    .video-grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:721px) and (max-width:1080px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:1081px) and (max-width:1500px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
