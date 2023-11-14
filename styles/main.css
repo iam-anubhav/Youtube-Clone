@@ -1,3 +1,13 @@
 @import "header.css";
 @import "sidebar.css";
-@import "main-content.css"
+@import "main-content.css";
+
+body{
+    padding-left: 62px;
+    padding-top: 48px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto;
+}
