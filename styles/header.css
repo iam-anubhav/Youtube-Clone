@@ -3,6 +3,9 @@
     flex-direction: row;
     height: 35px;
     justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 .left-section{
     display: flex;
