@@ -1,3 +1,6 @@
+.video-content{
+    cursor: pointer;
+}
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -30,6 +33,27 @@
     grid-template-columns: 36px 1fr;
     column-gap: 10px;
     margin-top: 8px;
+}
+.channel{
+    position: relative;
+}
+.channel-tooltip{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12px;
+    padding: 5px;
+    left: 35px;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.channel:hover .channel-tooltip{
+    opacity: 1;
 }
 .channel-thumbnail{
     width:100%;
