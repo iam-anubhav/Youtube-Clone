@@ -8,9 +8,26 @@
     column-gap: 20px;
     row-gap: 40px;
 }
+.video{
+    position: relative;
+}
 .video-thumbnail{
     width:100%;
     border-radius: 7px;
+}
+.video-time{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
 }
 .video-info-grid{
     display: grid;
