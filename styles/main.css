@@ -1,6 +1,7 @@
 @import "header.css";
 @import "sidebar.css";
 @import "main-content.css";
+@import "footer.css";
 
 body{
     padding: 48px 20px 0 80px;
