@@ -3,20 +3,20 @@
 ## Overview
 This project is a simple YouTube clone built as part of my journey to learn and solidify HTML and CSS concepts. The main goal was to recreate the basic structure and styling of the YouTube interface to gain hands-on experience with front-end development.
 
-# Features
+## Features
 - Responsive design for various screen sizes.
 - Mimics key components of the YouTube user interface.
 - Utilizes HTML for structuring content and CSS for styling.
 
-# Live Demo:
+## Live Demo:
 Explore the live demo here : https://youtube-clone-by-anubhav.vercel.app/
 
-# What I Learned
+## What I Learned
 - HTML structuring for content hierarchy.
 - CSS styling and layout techniques.
 - Responsive design principles for cross-device compatibility.
 
-# Future Improvements
+## Future Improvements
 - Implementing additional features with JavaScript.
 - Enhancing accessibility and user interactions.
 
