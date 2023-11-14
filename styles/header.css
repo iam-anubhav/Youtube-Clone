@@ -4,8 +4,12 @@
     height: 35px;
     justify-content: space-between;
     position: fixed;
+    top: 0;
     left: 0;
     right: 0;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .left-section{
     display: flex;
